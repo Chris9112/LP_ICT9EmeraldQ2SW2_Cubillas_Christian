@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chars Robotics Club Registration</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #007bff;
+        }
+
+        .container {
+            margin-top: 30px;
+        }
+
+        .form-section {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-control {
+            margin-bottom: 10px;
+        }
+
+        .form-header {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+
+        body{
+	background-image: url(tech.avif);
+background-size: cover;
+}
+    </style>
+</head>
+
+<body>
+
+    <h1>Chars Robotics Club Registration</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="form-section">
+                    <h2 class="form-header">Join the Chars Robotics Club</h2>
+                    <form action="#" method="POST">
+                       
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required placeholder="Enter your full name">
+                        </div>
+
+                        
+                        <div class="form-group">
+                            <label for="age">Age</label>
+                            <input type="number" class="form-control" id="age" name="age" required placeholder="Enter your age">
+                        </div>
+
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email" required placeholder="Enter your email">
+                        </div>
+
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" required placeholder="Enter your phone number">
+                        </div>
+
+                        
+                        <div class="form-group">
+                            <label>Topics of Interest</label><br>
+                            <input type="checkbox" id="robotics" name="topics" value="Robotics"> Robotics<br>
+                            <input type="checkbox" id="ai" name="topics" value="AI"> AI<br>
+                            <input type="checkbox" id="programming" name="topics" value="Programming"> Programming<br>
+                            <input type="checkbox" id="mechanics" name="topics" value="Mechanics"> Mechanics<br>
+                        </div>
+
+                        
+                        <div class="form-group">
+                            <label>Experience Level</label><br>
+                            <input type="radio" id="beginner" name="level" value="Beginner" required> Beginner<br>
+                            <input type="radio" id="intermediate" name="level" value="Intermediate"> Intermediate<br>
+                            <input type="radio" id="advanced" name="level" value="Advanced"> Advanced<br>
+                        </div>
+
+                        
+                        <div class="form-group">
+                            <label for="projects">Select a Project</label>
+                            <select class="form-control" id="projects" name="projects">
+                                <option value="robot-arm">Robot Arm</option>
+                                <option value="ai-project">AI Project</option>
+                                <option value="drone">Drone</option>
+                                <option value="self-driving-car">Self-Driving Car</option>
+                            </select>
+                        </div>
+
+                       
+                        <div class="form-group">
+                            <label for="reason">Why do you want to join the Chars Robotics Club?</label>
+                            <textarea class="form-control" id="reason" name="reason" rows="4" required placeholder="Tell us why you want to be part of the Robotics Club"></textarea>
+                        </div>
+
+                        
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="footer">
+        <p>For more information, visit <a href="https://www.charsroboticsclub.com" target="_blank">Chars Robotics Club Official Website(Maam this is fake pl)</a></p>
+    </div>
+
+    
+    
+
+</body>
+
+</html>
